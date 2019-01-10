@@ -1,6 +1,7 @@
 #include "../include/lex.h"
 #include "../include/set.h"
 #include "../include/statuses.h"
+#include "../include/version.h"
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
