@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -c -Wall -O3
-LDFLAGS = -L /usr/lib
+LDFLAGS = -L /usr/lib -lm
 
 DIR_SOURCE = source
 DIR_HEADER = include
@@ -34,3 +34,6 @@ include $(wildcard $(DIR_MAKEFILE_INC)/*.d)
 .PHONY: clean
 clean:
 	rm -rf $(DIR_OUTPUT)/*o $(TARGET) $(DIR_MAKEFILE_INC)/*.d
+
+test:
+	spec/spec.sh
