@@ -11,5 +11,6 @@
 #define NOT_ENOUGH_MEMORY -1
 #define INVALID_ADDRESS   -2
 #define TOO_LONG          -3
+#define NUMBER_READY       1
 
 #endif /* #ifndef STATUSES_H */
