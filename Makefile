@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -c -Wall -O3
-LDFLAGS = -L /usr/lib -lm
+LDFLAGS = -L /usr/lib
 
 DIR_SOURCE = source
 DIR_HEADER = include
